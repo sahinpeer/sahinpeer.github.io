@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waseela Sahin — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo">Waseela Sahin</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="top" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Hi, I'm</p>
+          <h1 class="hero-title">Waseela Sahin</h1>
+          <p class="hero-sub">I build Python and AI-powered tools that turn raw data into clear, useful insights. Currently a final-year AI &amp; Data Science student, open to internships and entry-level roles.</p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">See my work</a>
+            <a href="resume.pdf" class="btn btn-ghost" download>Download resume</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Waseela Sahin" onerror="this.parentElement.classList.add('no-photo')">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap two-col">
+        <div>
+          <h2>About</h2>
+          <p>
+            I'm a final-year AI &amp; Data Science undergraduate who enjoys building things that
+            make sense of messy data — from automated pattern-detection tools to small apps that
+            flag anomalies in real time. I work mainly in Python, with a growing focus on
+            generative AI and large language models.
+          </p>
+          <p>
+            Alongside coding, I care about explaining technical work clearly — I've presented
+            data insights to non-technical audiences and enjoy the design side of things too,
+            from posters to video edits. Based in Madurai, Tamil Nadu.
+          </p>
+        </div>
+        <ul class="skills-list">
+          <li>Python</li>
+          <li>Machine Learning</li>
+          <li>Generative AI &amp; LLMs</li>
+          <li>Data Mining &amp; Automation</li>
+          <li>MS Excel &amp; DBMS</li>
+          <li>UI / Poster Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="wrap">
+        <h2>Selected work</h2>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-thumb" data-label="FlowTrace"></div>
+            <h3>FlowTrace</h3>
+            <p>A Python-based signup-detection tool using rule-based logic to flag and track anomalous user activity, making workflows easier to trace.</p>
+            <p class="project-meta">Python</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb" data-label="DataMining"></div>
+            <h3>DataMining Application</h3>
+            <p>Automates the data mining process using the Apriori algorithm and other pattern-detection methods, cutting manual effort in extracting insights.</p>
+            <p class="project-meta">Python, Apriori Algorithm</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb" data-label="RouteNav"></div>
+            <h3>Smart Route Navigator</h3>
+            <p>A navigation tool that applies algorithmic decision logic to find and optimize the best route between points.</p>
+            <p class="project-meta">Python</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+      <div class="wrap">
+        <h2>Certifications</h2>
+        <ul class="cert-list">
+          <li>
+            <span class="cert-name">Develop GenAI Apps with Gemini and Streamlit</span>
+            <span class="cert-issuer">Google · Skill Badge · Sept 2024</span>
+          </li>
+          <li>
+            <span class="cert-name">Inspect Rich Documents with Gemini Multimodality and Multimodal RAG</span>
+            <span class="cert-issuer">Google · Skill Badge · Sept 2024</span>
+          </li>
+          <li>
+            <span class="cert-name">Prompt Design in Vertex AI</span>
+            <span class="cert-issuer">Google · Skill Badge · Sept 2024</span>
+          </li>
+          <li>
+            <span class="cert-name">Data Visualisation: Empowering Business with Effective Insights</span>
+            <span class="cert-issuer">TATA · Job Simulation</span>
+          </li>
+          <li>
+            <span class="cert-name">Data Analytics Job Simulation</span>
+            <span class="cert-issuer">Deloitte</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="wrap">
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>B.Tech, Artificial Intelligence &amp; Data Science</h3>
+          <p class="edu-meta">Dhanalakshmi Srinivasan University · Nov 2023 – Present</p>
+        </div>
+        <div class="edu-item">
+          <h3>HSC</h3>
+          <p class="edu-meta">Velammal Vidyalaya · 2022 – 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Let's talk</h2>
+        <p>The best way to reach me is email — I try to reply within a day or two.</p>
+        <a href="mailto:sahinpeer@gmail.com" class="btn btn-primary">sahinpeer@gmail.com</a>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Waseela Sahin. Built by hand.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
